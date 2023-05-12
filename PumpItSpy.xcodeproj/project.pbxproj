@@ -11,6 +11,8 @@
 		373FA2E22A0DB4F200F457C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373FA2E12A0DB4F200F457C1 /* ContentView.swift */; };
 		373FA2E42A0DB4F300F457C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 373FA2E32A0DB4F300F457C1 /* Assets.xcassets */; };
 		373FA2E72A0DB4F300F457C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 373FA2E62A0DB4F300F457C1 /* Preview Assets.xcassets */; };
+		373FA2EF2A0DB55F00F457C1 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373FA2EE2A0DB55F00F457C1 /* Model.swift */; };
+		373FA2F12A0DB61F00F457C1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373FA2F02A0DB61F00F457C1 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,9 @@
 		373FA2E32A0DB4F300F457C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		373FA2E62A0DB4F300F457C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		373FA2E82A0DB4F300F457C1 /* PumpItSpy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PumpItSpy.entitlements; sourceTree = "<group>"; };
+		373FA2EE2A0DB55F00F457C1 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		373FA2F02A0DB61F00F457C1 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		373FA2F22A0DC18000F457C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +57,11 @@
 		373FA2DE2A0DB4F200F457C1 /* PumpItSpy */ = {
 			isa = PBXGroup;
 			children = (
+				373FA2F22A0DC18000F457C1 /* Info.plist */,
 				373FA2DF2A0DB4F200F457C1 /* PumpItSpyApp.swift */,
 				373FA2E12A0DB4F200F457C1 /* ContentView.swift */,
+				373FA2EE2A0DB55F00F457C1 /* Model.swift */,
+				373FA2F02A0DB61F00F457C1 /* ViewModel.swift */,
 				373FA2E32A0DB4F300F457C1 /* Assets.xcassets */,
 				373FA2E82A0DB4F300F457C1 /* PumpItSpy.entitlements */,
 				373FA2E52A0DB4F300F457C1 /* Preview Content */,
@@ -139,7 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				373FA2EF2A0DB55F00F457C1 /* Model.swift in Sources */,
 				373FA2E22A0DB4F200F457C1 /* ContentView.swift in Sources */,
+				373FA2F12A0DB61F00F457C1 /* ViewModel.swift in Sources */,
 				373FA2E02A0DB4F200F457C1 /* PumpItSpyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +284,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PumpItSpy/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,6 +312,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PumpItSpy/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
